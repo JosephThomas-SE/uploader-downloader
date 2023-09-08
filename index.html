@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div>
+            <h2>Login</h2>
+            <form action="/server.js" method="post">
+                <input type="text" id="username" name="username" placeholder="Username" required>
+                <input type="text" id="password" name="password" placeholder="Password" required>
+                <label for="role">Select Role: </label>
+                <select id="role" name="role">
+                    <option value="uploader">Uploader</option>
+                    <option value="downloader">Downloader</option>
+                </select>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+    </body>
+</html>

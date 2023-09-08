@@ -1,0 +1,22 @@
+{
+  "name": "uploader-downloader",
+  "version": "1.0.0",
+  "description": "uploader-downloader",
+  "main": "index.js",
+  "scripts": {
+    "test": "run-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JosephThomas-SE/uploader-downloader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JosephThomas-SE/uploader-downloader/issues"
+  },
+  "homepage": "https://github.com/JosephThomas-SE/uploader-downloader#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
